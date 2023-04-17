@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  color: white
+  }
+  a{
+    color:white
+  }
+  .App-header{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    font: white
+  }
+  .App-title{
+    color:white
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  .container{
+  
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  font: white
+  }
+  .active-book{
+    background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  font: white;
+  margin:30px
+  }
+  
+  .active-book__description{
+  
+    flex: center;
+    border:white
+  }
+  .button{
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      font: inherit;
+      border-radius: 3px;
+      padding: 0.25rem 1rem;
+      margin-right: 1rem;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+      color: white;
+      cursor: pointer;
+  }
+  .form__button{
+    background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color:white
+  }
+  .form__button:hover, .form__button:active{
+    background: -webkit-linear-gradient(to left, #81aef7, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #81aef7, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .button:hover, .button:active {
+    background: -webkit-linear-gradient(to left, #81aef7, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #81aef7, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  .book-text{
+  margin:30px;
+  font: white
+  }
