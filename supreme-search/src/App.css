@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url("./red_gradient_horizontal.png");
+  background-size: cover;
+}
